@@ -57,10 +57,24 @@ body {
 	min-height: 100%;
 }
 
+:root{
+/*
+	--primary-color: #edf2fc;
+	--secondary-color: #212121;
+*/	
+	--primary-color: #000106;
+	--secondary-color: #fff;
+}
+
 #icon {
 	width: 30px;
 	cursor: pointer;
 }
+nav ul{
+	flex: 1;
+	text-align: right;
+}
+
 
 nav {
 	width: 25%;
@@ -75,12 +89,12 @@ article {
 }
 
 nav ul li {
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: 'Brush Script MT', cursive;
 	font-size: 0.8em;
 }
 
 nav ul li a {
-	color: #222;
+	color: var(--secondary-color);
 	text-decoration: none;
 	display: block;
 	margin-bottom: 8%;
@@ -100,8 +114,9 @@ nav ul li a:hover, nav ul li a:active {
 }
 body h1 {
 	margin: 1%;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: 'Brush Script MT', cursive;
 	font-size: 1.5em;
+	color: var(--primary-color);
 }
 
 body article h1 {
@@ -115,14 +130,15 @@ header img {
 }
 body p, body address {
 	margin: 3.5% 1%;
+	color: var(--primary-color);
 	font-size: 1em;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: 'Brush Script MT', cursive;
 	font-style: normal;
 	height: 100%;
 }
 dl {
 	margin-left: 2%;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: 'Brush Script MT', cursive;
 }
 dt {
 	display: block;
@@ -145,6 +161,7 @@ footer {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	clear: both;
 	padding-bottom: 20px;
+
 }
 
 article aside h1 {
@@ -164,7 +181,7 @@ article div h1 {
 	font-weight: bold;
 }
 
-article p, article address {font-family: "Times New Roman", Times, serif;}
+article p, article address {font-family: 'Brush Script MT', cursive;;}
 /* =============================================
 	Tablet layout styles used by devices
 	481px to 768px and cascaded to larger 
@@ -303,7 +320,7 @@ html, body {
 }
 
 html {
-	background-color: #953e3c;
+	background-color: var(--primary-color);
 	margin: 0px auto;
 }
 body {
