@@ -58,10 +58,10 @@ body {
 }
 
 :root{
-/*
 	--primary-color: #edf2fc;
 	--secondary-color: #212121;
-*/	
+}
+.dark-theme{
 	--primary-color: #000106;
 	--secondary-color: #fff;
 }
@@ -86,6 +86,7 @@ article {
 	float: left;
 	font-size: 0.8em;
 	text-align: left;
+	color: (var(--secondary-color));
 }
 
 nav ul li {
@@ -116,7 +117,6 @@ body h1 {
 	margin: 1%;
 	font-family: 'Brush Script MT', cursive;
 	font-size: 1.5em;
-	color: var(--primary-color);
 }
 
 body article h1 {
@@ -129,8 +129,8 @@ header img {
 	margin: 2% 2% 0% 2%;
 }
 body p, body address {
-	margin: 3.5% 1%;
-	color: var(--primary-color);
+	margin: 3.5% 1% outset #000126;
+	color: var(--secondary-color);
 	font-size: 1em;
 	font-family: 'Brush Script MT', cursive;
 	font-style: normal;
@@ -320,7 +320,7 @@ html, body {
 }
 
 html {
-	background-color: var(--primary-color);
+	background-color: rgb(15, 68, 10);
 	margin: 0px auto;
 }
 body {
@@ -331,7 +331,7 @@ body {
 	margin: 0px auto auto auto;
 	clear: none;
 	float: none;
-	background-color: white;
+	background-color: var(--primary-color);
 	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
