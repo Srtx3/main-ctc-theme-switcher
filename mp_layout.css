@@ -235,7 +235,7 @@ article img {
 }
 nav ul li {
 	display: table-cell;
-	width: 15%;
+	width: 20%;
 	text-align: center;
 	margin-right: 2%;
 	border: thin solid rgba(127,96,17,1.00);
@@ -246,7 +246,7 @@ nav ul li a {
 }
 nav {
 	display: table;
-	width: 96%;
+	width: 100%;
 	margin: 0 auto;
 	float: none;
 }
